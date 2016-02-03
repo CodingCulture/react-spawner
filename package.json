@@ -2,7 +2,7 @@
   "name": "react-spawner",
   "version": "1.0.2",
   "description": "Spawns React Components in a non-SPA environment",
-  "main": "src/ComponentSpawner.react.js",
+  "main": "dist/ComponentSpawner.js",
   "dependencies": {
     "array-difference": "0.0.1",
     "react": "^0.14.7",
