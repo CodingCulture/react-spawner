@@ -1,3 +1,5 @@
+import difference from 'array-difference';
+
 /**
  * Class that will spawn Components if their appropriate DOM elements are present.
  */
@@ -47,7 +49,7 @@ export default class ComponentSpawner
      */
     classFiller(component)
     {
-        throw new TypeError('classFilter can not be called on the super class, please extend the ComponentSpawner')
+        throw new TypeError('classFilter can not be called on the super class, please extend the ComponentSpawner');
     }
 
     /**
