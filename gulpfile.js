@@ -37,7 +37,7 @@ gulp.task('concatReact', function(){
     });
 
     return bundler
-        .transform(babelify, {presets: ['es2015', 'react']})
+        .transform(babelify, {presets: ['es2015', 'react'], plugins: ['add-module-exports']})
         .bundle()
         .pipe(source('ComponentSpawner.js'))
         .pipe(gulp.dest('dist/'))
