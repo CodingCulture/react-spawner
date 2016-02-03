@@ -1,0 +1,14 @@
+{
+    "global" : {
+        "build": "dist/"
+    },
+    "js": {
+
+        "es6": {
+            "locations": [
+                "src/**/*.js"
+            ],
+            "entry": "./src/**/*.js"
+        }
+    }
+}

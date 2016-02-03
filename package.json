@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "Spawns React Components in a non-SPA environment",
   "main": "src/ComponentSpawner.react.js",
-  "dependancies": {
+  "dependencies": {
     "array-difference": "0.0.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
