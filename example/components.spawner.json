@@ -4,7 +4,7 @@
     "props": {
       "type": "all"
     },
-    "target": "ngr-target-games",
+    "target": "target-games",
     "jsx": null
   }
 ]
