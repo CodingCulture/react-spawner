@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Games",
+    "props": {
+      "type": "all"
+    },
+    "target": "ngr-target-games",
+    "jsx": null
+  }
+]
