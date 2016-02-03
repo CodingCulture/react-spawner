@@ -1,0 +1,33 @@
+{
+  "name": "react-spawner",
+  "version": "1.0.0",
+  "description": "Spawns React Components in a non-SPA environment",
+  "main": "src/ComponentSpawner.react.js",
+  "dependancies": {
+    "array-difference": "0.0.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingCulture/react-spawner.git"
+  },
+  "keywords": [
+    "react",
+    "react-spawner",
+    "jquery",
+    "SPA"
+  ],
+  "author": "Niels Vermaut <nielsvermaut@gmail.com> (https://nielsvermaut.eu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingCulture/react-spawner/issues"
+  },
+  "homepage": "https://github.com/CodingCulture/react-spawner#readme"
+}
