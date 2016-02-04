@@ -5,6 +5,8 @@
   "main": "dist/ComponentSpawner.js",
   "dependencies": {
     "array-difference": "0.0.1",
+    "babel-npm-module-example": "0.0.6",
+    "gulp-babel": "^6.1.2",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
@@ -12,7 +14,8 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
