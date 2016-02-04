@@ -2,7 +2,7 @@
   "name": "react-spawner",
   "version": "1.0.8",
   "description": "Spawns React Components in a non-SPA environment",
-  "main": "dist/ComponentSpawner.js",
+  "main": "dist/ComponentSpawner.react.js",
   "dependencies": {
     "array-difference": "0.0.1",
     "babel-npm-module-example": "0.0.6",
