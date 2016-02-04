@@ -1,4 +1,5 @@
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 import difference from 'array-difference';
 
 /**
