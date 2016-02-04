@@ -36,10 +36,23 @@ gulp.task('concatReact', function(){
         cache: {}, packageCache: {}, fullPaths: true
     });
 
-    return bundler
+    bundler
         .transform(babelify, {presets: ['es2015', 'react'], plugins: ['add-module-exports']})
         .bundle()
         .pipe(source('ComponentSpawner.js'))
         .pipe(gulp.dest('dist/'))
     ;
+
+    var bundlerTestBed = browserify({
+        entries: ["example/bootstrap.js"],
+        debug: true,
+        cache: {}, packageCache: {}, fullPaths: true
+    });
+
+    return bundlerTestBed
+        .transform(babelify, {presets: ['es2015', 'react'], plugins: ['add-module-exports']})
+        .bundle()
+        .pipe(source('ComponentFactory.js'))
+        .pipe(gulp.dest('example/'))
+        ;
 });
