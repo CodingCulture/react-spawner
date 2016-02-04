@@ -1,10 +1,10 @@
 [
   {
-    "name": "Games",
+    "name": "HelloWorld",
     "props": {
       "type": "all"
     },
-    "target": "target-games",
+    "target": "ngr-target-games",
     "jsx": null
   }
 ]

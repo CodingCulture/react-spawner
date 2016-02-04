@@ -4,8 +4,7 @@ import difference from 'array-difference';
 import ComponentSpawner from '../src/ComponentSpawner.react.js';
 import SpawnCandidates from './components.spawner.json';
 
-//Import all the Components that the Spawner should inject into the dom.
-import Games from '../games/games.react.js';
+import HelloWorld from './HelloWorld.react.js';
 
 /**
  * Class ComponentFactory.
@@ -32,8 +31,8 @@ export default class ComponentFactory extends ComponentSpawner
     {
         switch(component.name)
         {
-            case "Games":
-                component.jsx = <Games type={component.props.type} />;
+            case "HelloWorld":
+                component.jsx = <HelloWorld />;
                 break;
         }
 
