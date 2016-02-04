@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import difference from 'array-difference';
+import ComponentSpawner from 'react-spawner';
 
-//Replace path by 'react-spawner/src/ComponentSpawner.react.js
-import ComponentSpawner from '../../../src/ComponentSpawner.react.js';
 import SpawnCandidates from './components.spawner.json';
-
 import HelloWorld from './HelloWorld.react.js';
 
 /**
