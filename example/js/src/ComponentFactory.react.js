@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import difference from 'array-difference';
-import ComponentSpawner from '../src/ComponentSpawner.react.js';
+
+//Replace path by 'react-spawner/src/ComponentSpawner.react.js
+import ComponentSpawner from '../../../src/ComponentSpawner.react.js';
 import SpawnCandidates from './components.spawner.json';
 
 import HelloWorld from './HelloWorld.react.js';
@@ -19,6 +21,9 @@ export default class ComponentFactory extends ComponentSpawner
         super();
         this.setSpawnList(SpawnCandidates);
         this.spawner(this.getSpawnList());
+
+        console.log(this.getSpawnList());
+        console.log(this.getSpawns());
     }
 
     /**
