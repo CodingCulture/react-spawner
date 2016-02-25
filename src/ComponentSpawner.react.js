@@ -92,7 +92,7 @@ export default class ComponentSpawner
     spawner(list)
     {
         for (let component of list) {
-            if (document.getElementById(component.target)) {
+            if (document.getElementById(component.target).length != 0) {
                 this.renderComponent(this.classFiller(component));
                 this.spawns.push(component);
             }
