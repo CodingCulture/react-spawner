@@ -132,7 +132,7 @@ var ComponentSpawner = function () {
                 for (var _iterator = list[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
                     var component = _step.value;
 
-                    if (document.getElementById(component.target).length != 0) {
+                    if (document.getElementById(component.target) != null) {
                         this.renderComponent(this.classFiller(component));
                         this.spawns.push(component);
                     }
